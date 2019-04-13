@@ -26,6 +26,5 @@ class Artist
     Song.all.collect do |song|
       song.genre
     end
-
   end
 end
