@@ -12,4 +12,12 @@ class Appointment
   def self.all
     @@all
   end
+
+  def patients
+    self.patient
+  end
+
+  def doctor
+    self.doctor
+  end
 end
