@@ -17,7 +17,7 @@ class Patient
 
   def appointments
     Appointment.all.collect do |app|
-      app.patient
+      app.patient == self
     end
   end
 end
