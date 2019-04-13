@@ -26,6 +26,6 @@ class Artist
     Song.all.select do |song|
       song.genre
     end
-    end
+
   end
 end
