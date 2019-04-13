@@ -16,4 +16,5 @@ class Artist
     song = Song.new(song_name)
     song.genre=song_genre
     song.artist=self
+  end
 end
